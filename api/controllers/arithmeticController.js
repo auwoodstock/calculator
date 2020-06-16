@@ -12,7 +12,7 @@ exports.calculate = function(req, res) {
 
   var operations = {
     // BASIC OPERATRIONS DONE BY CALCULATROR PROGRAM - ACM - 16-JUN-2020
-    'add':      function(a,b) { return +a + +b },
+    'add':      function(a,b) { return a + b },
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
